@@ -1,0 +1,29 @@
+/* lo mejor es hacer esto, import fonts aqui */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* podemos poner el estilo a varias cosas disntitas, 
+separandolas con una coma */
+
+
+
+h1 {
+    color: peru;
+    font-family: 'Lobster', cursive;
+    font-weight: 900;
+
+    font-size: 2em;
+}
+ /* font weight es el peso de la fuente, no su tamaño!
+ no confundir con font.size! */
+
+p {
+    font-family: 'Allison', cursive;
+    font-weight: 400;
+    color: royalblue;
+    font-size: 3em;
+
+}
+
+.pixel {
+    font-size: 48px;
+}

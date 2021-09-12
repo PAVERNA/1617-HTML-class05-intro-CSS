@@ -1,0 +1,18 @@
+/* podemos poner el estilo a varias cosas disntitas, 
+separandolas con una coma */
+
+h1 {
+    color: peru;
+    font-family: 'Azeret Mono', monospace;
+    font-weight: 900;
+    font-size: 40px;
+}
+ /* font weight es el peso de la fuente, no su tamaño!
+ no confundir con font.size! */
+
+p {
+    font-family: 'Allison', cursive;
+    font-weight: 400;
+    color: royalblue;
+    font-size: 50px;
+}

@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(92, 179, 201);
+    margin: 5px;
+}
+
+div {
+    background-color: rgb(243, 111, 243);
+    margin: 4%;
+    padding: 2%;
+/* border radius si va con PIXELES */
+    border-radius: 10px;
+}
+
+div p {
+    color:rebeccapurple
+}
+
+p {
+    color: orangered;
+    margin: 10%;
+}
+
+.lorem {
+    color: slateblue;
+    margin: 5%;
+}

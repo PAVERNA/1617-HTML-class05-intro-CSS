@@ -1,0 +1,62 @@
+/* ctrol K mas C comenta, control K mas U descomenta */
+
+/* el * sirve para hacer los reset de nivel mas bajo */
+/* es el elemento de especificidad mas bajo, no vale nada */
+* {
+    background-color: rgb(156, 157, 177);
+}
+
+/* estilando usando la etiqueta */
+/* etiquetas tienen especificidad 0.0.1 */
+h1 {
+    color:rgb(212, 226, 10);
+    font-size:65px;
+    background-color: royalblue;
+}
+
+/* poniendo un estilo a etiqueta que se repite varias veces  */
+div {
+    background-color: silver;
+    margin-top: 5%;
+}
+
+/* las class son los siguentes en especididad, valen 10 mas
+que las etiquetas . (0.1.0) */
+.divDistinto {
+    background-color: springgreen;
+}
+
+/* Las ID tienen especificidadad 1. 0. 0. */
+#textoLorem {
+    color: white;
+}
+
+/* Podemos combinar! ahora el valor des 0. 1. 1. */
+p.textoLorem {
+    color: rgb(252, 252, 9);
+}
+
+p.textoLorem.texto2 {
+    color: rgb(17, 58, 31);
+}
+
+/* !important pasa por ENCIMA DE TODO! ahora es 1, 0, 1, 0 */
+.noHaganEsto {
+    color: rebeccapurple !important;
+}
+
+/* podemos combinar las etiquetas, sima las especifidades
+mas bajas (0, 0, 2,) */
+ul li {
+    list-style-type: circle;
+    color: rgb(241, 143, 14);
+
+}
+
+/* los ID + etiqueta suma la especificidad (1, 0 ,1 */
+#textoLorem span {
+    color: rgb(10, 32, 99);
+    background-color: seashell;
+    cursor: wait;
+    
+}
